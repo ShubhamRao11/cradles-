@@ -17,7 +17,7 @@ class Bob {
         var pos = this.body.position;
         push ()
         translate(pos.x,pos.y);
-        rotate (this.body.angle)
+        //rotate (this.body.angle)
         fill ("cyan");
 
         ellipseMode(CENTER);
